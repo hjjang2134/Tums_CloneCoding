@@ -25,6 +25,7 @@
 
 # Visual Studio cache directory
 .vs/
+.FSTimeGet-90ab44f1aba8d384d8ee52ee2fcb3c72/
 
 # Gradle cache directory
 .gradle/
