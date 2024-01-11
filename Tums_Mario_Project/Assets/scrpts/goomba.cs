@@ -8,10 +8,19 @@ public class goomba : MonoBehaviour
     private Rigidbody rb;
     private GameObject player; // 마리오 객체
 
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     void Start()
     {
+        animator.Play("Wait");
         rb = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Mario"); // "Mario" 태그로 설정된 오브젝트 찾기, hierachy에서 마리오에 태그 설정
+
     }
 
     void Update()
@@ -34,6 +43,7 @@ public class goomba : MonoBehaviour
         Vector3 movement = direction * movementSpeed * Time.deltaTime;
 
         // 굼바 이동
+        animator.Play("Noesis Frames");
         rb.MovePosition(transform.position + movement);
     }
 
