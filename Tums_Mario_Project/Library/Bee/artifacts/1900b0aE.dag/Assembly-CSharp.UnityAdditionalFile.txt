@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\다정\Documents\GitHub\Tums_CloneCoding\Tums_Mario_Project
+=======
+C:\Users\ASUS\Documents\GitHub\Tums_CloneCoding\Tums_Mario_Project
+>>>>>>> Huijin
