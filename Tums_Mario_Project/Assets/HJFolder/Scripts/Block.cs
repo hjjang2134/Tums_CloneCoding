@@ -27,5 +27,5 @@ public class Block : MonoBehaviour
             Destroy(gameObject);
 
         }
-    }
+    } //code수정테스트
 }
